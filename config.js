@@ -1,3 +1,4 @@
+
 module.exports = {
   brew: [
     // http://conqueringthecommandline.com/book/ack_ag
@@ -13,17 +14,24 @@ module.exports = {
     'findutils',
     'fortune',
     'gawk',
+    'gh',
     // http://www.lcdf.org/gifsicle/ (because I'm a gif junky)
     'gifsicle',
+		'git-extras',
     'gnupg',
     // Install GNU `sed`, overwriting the built-in `sed`
     // so we can do "sed -i 's/foo/bar/' file" instead of "sed -i '' 's/foo/bar/' file"
     'gnu-sed --default-names',
     // better, more recent grep
+		// better/more recent version of grep, nano, openssh, & screen
     'homebrew/dupes/grep',
+		'homebrew/dupes/nano',
+		'homebrew/dupes/openssh',
+		'homebrew/dupes/screen',
+		'homebrew/dupes/rsync',
     // https://github.com/jkbrzt/httpie
     'httpie',
-    'imagemagick',
+    'imagemagick --with-webp',
     'imagesnap',
     // jq is a sort of JSON grep
     'jq',
@@ -34,8 +42,7 @@ module.exports = {
     'nmap',
     'openconnect',
     'reattach-to-user-namespace',
-    // better/more recent version of screen
-    'homebrew/dupes/screen',
+		'homebrew/completions/brew-cask-completion',
     'tmux',
     'tree',
     'ttyrec',
@@ -43,31 +50,72 @@ module.exports = {
     'vim --with-override-system-vi',
     'watch',
     // Install wget with IRI support
-    'wget --enable-iri'
+    'wget --enable-iri',
+		'wifi-password'
   ],
   cask: [
-    //'adium',
-    //'amazon-cloud-drive',
-    //'atom',
-    'box-sync',
-    //'comicbooklover',
-    //'diffmerge',
-    //'dropbox',
-    //'evernote',
-    'gpgtools',
-    //'ireadfast',
+		'1password',
+		'adobe-creative-cloud',
+		'adobe-reader',
+		'alfred',
+    'amazon-drive',
+    'atom',
+		'cleanmymac',
+	  'dash',
+	  'disk-inventory-x',
+	  'docker',
+	  'dropbox',
+    'diffmerge',
+    'dropbox',
+    'evernote',
+		'firefox',
+		'flux',
+		'forklift',
+		'gemini',
+		'glimmerblocker',
+		'google-chrome',
+		'google-chrome-canary',
+		'google-drive',
+		'google-play-music-desktop-player',
+		'gpgtools',
+		'gyazo',
+		'hammerspoon',
+		'imagealpha',
+		'imageoptim',
+		'imazing',
     'iterm2',
+    'kaleidoscope',
     'little-snitch',
+		'macdown',
+		'malwarebytes-anti-malware',
     'micro-snitch',
-    //'macvim',
-    'sizeup',
-    //'sketchup',
+    'omnifocus',
+    'opera',
+    'rescuetime',
+    'screenflow',
+    'sketch',
+		'sketch-toolbox',
     'slack',
+    'sourcetree',
+    'sublime-text',
+		'textwrangler',
     'the-unarchiver',
-    //'torbrowser',
-    //'transmission',
-    //'vlc',
-    'xquartz'
+    'torbrowser',
+    'virtualbox',
+    'vlc',
+		// Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
+		'qlcolorcode',
+		'qlstephen',
+		'qlmarkdown',
+		'quicklook-json',
+		'qlprettypatch',
+		'quicklook-csv',
+		'betterzipql',
+		'qlimagesize',
+		'webpquicklook',
+		'suspicious-package',
+		'quicklookase',
+		'qlvideo'
   ],
   gem: [
     'git-up'
@@ -75,14 +123,18 @@ module.exports = {
   npm: [
     'antic',
     'buzzphrase',
+		'diff-so-fancy',
     'eslint',
-    'instant-markdown-d',
-    'npm-check',
-    'yo',
     'generator-dockerize',
-    'gulp',
+    'git-open',
+    'git-recent',
+    'instant-markdown-d',
+    'npm-check-updates',
+    'npm-check',
     'prettyjson',
+		'servedir',
     'trash',
-    'vtop'
+    'vtop',
+		'yo'
   ]
 };

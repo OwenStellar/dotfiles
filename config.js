@@ -102,6 +102,7 @@ module.exports = {
 		'textwrangler',
     'the-unarchiver',
     'torbrowser',
+    'vagrant',
     'virtualbox',
     'vlc',
 		'qlcolorcode',

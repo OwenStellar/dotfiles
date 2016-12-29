@@ -1,5 +1,5 @@
 const emoji = require('node-emoji')
-// const inquirer = require('inquirer')
+const inquirer = require('inquirer')
 const config = require('./config')
 const command = require('./lib_node/command')
 

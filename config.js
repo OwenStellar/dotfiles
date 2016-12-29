@@ -78,6 +78,7 @@ module.exports = {
 		'google-drive',
 		'google-play-music-desktop-player',
 		'gpgtools',
+		'grammarly',
 		'gyazo',
 		'hammerspoon',
 		'imagealpha',
@@ -103,7 +104,6 @@ module.exports = {
     'torbrowser',
     'virtualbox',
     'vlc',
-		// Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 		'qlcolorcode',
 		'qlstephen',
 		'qlmarkdown',

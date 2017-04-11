@@ -248,7 +248,7 @@ fi
 require_brew nvm
 
 # nvm
-require_nvm 4.4.7
+require_nvm 7.3.0
 
 # always pin versions (no surprises, consistent dev/build machines)
 npm config set save-exact true
@@ -337,7 +337,7 @@ sudo systemsetup -setremoteappleevents off
 sudo systemsetup -setwakeonmodem off
 
 # Disable wake-on LAN
-sudo systemsetup -setwakeonnetworkaccess off
+# sudo systemsetup -setwakeonnetworkaccess off
 
 # Disable file-sharing via AFP or SMB
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.AppleFileServer.plist

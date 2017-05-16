@@ -6,6 +6,7 @@ module.exports = {
     'ag',
     // cmake is required to compile vim bundle YouCompleteMe
     'cmake',
+    'commandbox',
     // Install GNU core utilities (those that come with OS X are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     'coreutils',
@@ -13,6 +14,7 @@ module.exports = {
     // Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
     'findutils',
     'fortune',
+    'fzf',
     'gawk',
     'gh',
     // http://www.lcdf.org/gifsicle/ (because I'm a gif junky)
@@ -29,6 +31,7 @@ module.exports = {
 		'homebrew/dupes/openssh',
 		'homebrew/dupes/screen',
 		'homebrew/dupes/rsync',
+
     // https://github.com/jkbrzt/httpie
     'httpie',
     'imagemagick --with-webp',
